@@ -8,6 +8,8 @@ h1, h2, h3, h4, h5, p {
 }
 
 body {
+    display: flex;
+    flex-direction: column;
     margin: 0;
 }
 
@@ -26,10 +28,23 @@ nav > p {
 /* Content area */
 
 .content {
+    padding: 50px 0 50px 0;
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
 }
 
 .content--messages {
+    width: 60%;
+    height: 500px;
+    border: 1px solid black;
+    margin-bottom: 50px;
+}
 
+.content--write {
+    width: 60%;
+    height: 50px;
+    border: 1px solid black;
 }
