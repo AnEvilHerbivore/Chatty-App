@@ -1,0 +1,15 @@
+.post {
+    display: flex;
+    align-items: center;
+    background-color: rgb(226, 226, 226);
+    Width: 100%;
+}
+
+.content--messageboard {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    height: 500px;
+    border: 1px solid black;
+    margin-bottom: 50px;
+}

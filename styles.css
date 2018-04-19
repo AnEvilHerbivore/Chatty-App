@@ -48,3 +48,9 @@ nav > p {
     height: 50px;
     border: 1px solid black;
 }
+
+.button--delete {
+    width: 40px;
+    height: 20px;
+    color: var(--primaryDarkColor);
+}
