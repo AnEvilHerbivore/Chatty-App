@@ -1,8 +1,10 @@
 .post {
     display: flex;
     align-items: center;
+    justify-content: space-between;
     background-color: rgb(226, 226, 226);
-    Width: 100%;
+    padding: 0 20px 0 20px;
+    border-radius: 2px;
 }
 
 .content--messageboard {
@@ -11,5 +13,17 @@
     width: 60%;
     height: 500px;
     border: 1px solid black;
+    background-color: var(--backgroundColor);
     margin-bottom: 50px;
+    padding: 10px;
+}
+
+.name {
+    font-weight: 800;
+    width: 150px;
+}
+
+.button--delete {
+    height: 20px;
+    color: var(--primaryDarkColor);
 }
