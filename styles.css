@@ -1,0 +1,35 @@
+:root {
+    --primaryDarkColor: #14152A;
+    --primaryFont: 'lato';
+}
+
+h1, h2, h3, h4, h5, p {
+    font-family: var(--primaryFont);
+}
+
+body {
+    margin: 0;
+}
+
+nav {
+    display: flex;
+    background-color: var(--primaryDarkColor);
+    height: 50px;
+    padding: 0 50px 0 50px;
+}
+
+nav > p {
+    color: white;
+    font-weight: 600;
+}
+
+/* Content area */
+
+.content {
+    display: flex;
+    flex-direction: column;
+}
+
+.content--messages {
+
+}
