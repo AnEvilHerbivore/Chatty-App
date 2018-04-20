@@ -1,0 +1,14 @@
+textarea {
+     height: 88%;
+     width: 99.3%;
+     resize: none;
+}
+
+form {
+    height: 100%;
+}
+
+form input {
+    margin-bottom: 50%;
+    display: block;
+}
